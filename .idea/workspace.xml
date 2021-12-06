@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f674f71-eca3-49f5-a03b-829026a68ca7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-info/app-info.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-info/app-info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/employees-list-item/employees-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employees-list-item/employees-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/employees-list/employees-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employees-list/employees-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/employees-add-form/employees-add-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/employees-add-form/employees-add-form.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +72,7 @@
       <workItem from="1638206113618" duration="7047000" />
       <workItem from="1638256498197" duration="41000" />
       <workItem from="1638733420712" duration="1539000" />
-      <workItem from="1638782269351" duration="4093000" />
+      <workItem from="1638782269351" duration="4863000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1633283447180</created>
@@ -141,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638213516848</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="count employers">
+      <created>1638795093130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638795093130</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,13 +160,14 @@
     <MESSAGE value="form" />
     <MESSAGE value="delete employer" />
     <MESSAGE value="add new employer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new employer" />
+    <MESSAGE value="count employers" />
+    <option name="LAST_COMMIT_MESSAGE" value="count employers" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="944" y="92" key="CommitChangelistDialog2" timestamp="1638213516349">
+    <state x="944" y="92" key="CommitChangelistDialog2" timestamp="1638795092428">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="944" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638213516349" />
+    <state x="944" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638795092428" />
     <state x="991" y="448" key="FileChooserDialogImpl" timestamp="1638256537096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
