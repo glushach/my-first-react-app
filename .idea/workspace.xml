@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f674f71-eca3-49f5-a03b-829026a68ca7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app-filter/app-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app-filter/app-filter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-panel/search-panel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <workItem from="1638206113618" duration="7047000" />
       <workItem from="1638256498197" duration="41000" />
       <workItem from="1638733420712" duration="1539000" />
-      <workItem from="1638782269351" duration="7900000" />
+      <workItem from="1638782269351" duration="9605000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1633283447180</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638795699611</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added search">
+      <created>1638804893271</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638804893271</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,13 +176,14 @@
     <MESSAGE value="delete employer" />
     <MESSAGE value="add new employer" />
     <MESSAGE value="count employers" />
-    <option name="LAST_COMMIT_MESSAGE" value="count employers" />
+    <MESSAGE value="added search" />
+    <option name="LAST_COMMIT_MESSAGE" value="added search" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="944" y="92" key="CommitChangelistDialog2" timestamp="1638795699108">
+    <state x="944" y="92" key="CommitChangelistDialog2" timestamp="1638804892786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="944" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638795699108" />
+    <state x="944" y="92" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1638804892786" />
     <state x="991" y="448" key="FileChooserDialogImpl" timestamp="1638256537096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
