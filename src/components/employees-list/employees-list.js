@@ -13,7 +13,7 @@ const EmployeesList = ({data, onDelete, onToggleProp, onChangeSalary}) => {
                 key={id}
                 {...itemProps}
                 onDelete={() => onDelete(id)}
-                changeSalary={onChangeSalary} //changeSalary в props класса EmployeesListItem
+                changeSalary={(e) => onChangeSalary(id, e)} //changeSalary в props класса EmployeesListItem
                 onToggleProp={
                     (e) => onToggleProp(
                         id,
@@ -25,6 +25,7 @@ const EmployeesList = ({data, onDelete, onToggleProp, onChangeSalary}) => {
     });
 
     return (
+
         <ul className="app-list list-group">
             {elements}
         </ul>

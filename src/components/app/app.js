@@ -23,15 +23,23 @@ class App extends Component {
         this.maxId = 4;
     }
 
-    changeSalary = (salary) => {
+    changeSalary = (id, e) => {
+        console.log('ИСКОМОЕ ID', id)
+        const salary = e.target.value.slice(0, -1);
+        console.log('Измененаая з/п', salary)
         this.setState(({data}) => ({
             data: data.map(item => {
-                return {...item, salary}
+                if(item.id === id) {
+                    return {...item, salary}
+                } else {
+                    return item;
+                }
             })
         }))
     }
 
     deleteItem = (id) => {
+        console.log('УДАЛЕНИЕ ID', id)
         this.setState(({data}) => {
            return {
                data: data.filter(item => item.id !== id)
@@ -39,7 +47,6 @@ class App extends Component {
         })
     }
 
-    // Да, пока могут добавляться пустые пользователи. Мы это еще исправим
     addItem = (name, salary) => {
         const newItem = {
             name,
